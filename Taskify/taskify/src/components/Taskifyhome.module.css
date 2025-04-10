@@ -1,0 +1,23 @@
+li.bgColor{
+    background-color: rgb(207, 142, 99);
+    font-weight: 500;
+    /* text-align: space-between; */
+    display: flex;
+    justify-content: space-between;
+   
+}
+.container{
+    margin-top: 40px;
+    width: 95%;
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+}
+.groupstyle{
+    width: 80%;
+   
+}
+.btnDelete{
+    height: 40px;
+    
+}

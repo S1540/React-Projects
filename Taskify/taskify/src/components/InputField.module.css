@@ -1,0 +1,35 @@
+.inputContainer{
+    height: 60px;
+    width: 90%;
+    display: flex;
+    justify-content:center;
+    flex: wrap;
+}
+
+.inputStyle{
+    height: 40px;
+    width: 350px;
+    min-width: 100px;
+    border-radius: 5px;
+    margin-right: 40px;
+    margin-top: 30px;
+    /* margin-left: 30px; */
+    border: 1px solid black;
+    outline: none;
+   
+    
+}
+.btnStyle{
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+    min-width: 80px;
+}
+.btnStyle{
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+    min-width: 80px;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out !important;
+}
