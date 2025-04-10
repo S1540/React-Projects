@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   const [value, setValue] = useState(() => {
     const storedData = localStorage.getItem("taskList");
-    return storedData ? JSON.parse(storedData) : [1, 2];
+    return storedData ? JSON.parse(storedData) : [];
   });
   //Delete Button functionality
 
